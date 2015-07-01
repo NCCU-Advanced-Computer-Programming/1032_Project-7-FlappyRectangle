@@ -1,0 +1,16 @@
+﻿<Window x:Class="UpgradeBird.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Window2" Height="350" Width="950">
+    <Grid>
+        <Canvas>
+            <Canvas.Background>
+                <ImageBrush ImageSource="BG.jpg"/>
+            </Canvas.Background>
+            <Rectangle Fill="Red" Height="39" Canvas.Left="268" Stroke="White" Canvas.Top="98" Width="39"/>
+        </Canvas>
+        <Button Content="Start" HorizontalAlignment="Left" Margin="440,240,0,0" VerticalAlignment="Top" Width="110" Click="Button_Click" Height="41" FontFamily="Microsoft Uighur" FontSize="30"/>
+        <Label Content="Flappy Rectangle" HorizontalAlignment="Left" Margin="330,75,0,0" VerticalAlignment="Top" FontFamily="Microsoft Uighur" FontSize="70"/>
+
+    </Grid>
+</Window>
